@@ -1,4 +1,39 @@
-## Welcome to GitHub Pages
+## Welcome to TEDxSoftdev Shell Scripting
+
+### What is a Shell Script?
+
+- A shell script is a program to be run by a shell.  
+- A shell is a command line interpreter. 
+- Steve Bourne created the first shell for Unix.
+
+### Hsitory of Unix Shells
+
+- First shell was made by Ken Thompson in 1971.
+- Steve Bourne made the Bourne Shell in 1977.
+- Goals to interactively execute commands and writing reusable scripts.
+
+### Bash
+
+- Bourne-Again Shell made to replace the Bourne Shell.
+- Improvements such as command history, command-line editing, and job control (pausing and resuming processes).
+
+### Running a Shell Script
+
+- To run a .sh file, you must make the file executable using chmod +x  
+- No need to compile separately as the language is written for the shell to understand
+
+### Hello World
+
+Code:
+```
+#!/bin/bash
+echo "Hello, world!"
+```
+
+Output:
+```
+Hello, World!
+```
 
 You can use the [editor on GitHub](https://github.com/Sadid-E/ShellScripting/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
