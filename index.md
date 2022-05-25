@@ -35,38 +35,66 @@ Output:
 Hello, World!
 ```
 
-You can use the [editor on GitHub](https://github.com/Sadid-E/ShellScripting/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### Variables 
+- The shell treats the “=” sign as a variable assignment.
+- There cannot be spaces around the “=” sign.
+- The shell does not care about types of variables.
+- Some special variables are already set.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+Code:
+```
+message="Hello World"
+echo $message
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+Output:
+```
+Hello World
+```
 
-### Jekyll Themes
+### Arrays
+-
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Sadid-E/ShellScripting/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Conditionals
+-
 
-### Support or Contact
+### Loops
+- For loops iterate through a set of values until the list is exhausted.
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Code:
+```
+for i in 1 2 3 4 5
+do
+  echo "Looping ... number $i"
+done
+```
+
+Output:
+```
+Looping ... number 1
+Looping ... number 2
+Looping ... number 3
+Looping ... number 4
+Looping ... number 5
+```
+
+- While loops will run indefinitely until a specific case is reached.
+
+Code:
+```
+a=0
+while [ $a -lt 5 ]
+do
+   echo $a
+   a=`expr $a + 1`
+done
+```
+
+Output:
+```
+1
+2
+3
+4
+5
+```
