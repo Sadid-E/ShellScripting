@@ -76,8 +76,8 @@ Looping ... number 2
 Looping ... number 3
 Looping ... number 4
 Looping ... number 5
-```
-
+```   
+      
 - While loops will run indefinitely until a specific case is reached.
 
 Code:
