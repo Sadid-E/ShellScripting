@@ -1,4 +1,4 @@
-## Welcome to TEDxSoftdev Shell Scripting
+## Welcome to TEDxSoftdev Shell Scripting by Sadid Ethun and Theo Fahey
 
 ### What is a Shell Script?
 
